@@ -21,7 +21,7 @@ Hiera-Ansible Parser.
 DOCUMENTATION = '''
 ---
 module: hiera
-version_added: "1.0.0"
+version_added: "2.1"
 short_description: Use Hiera key/values into Ansible as fact.
 author: "Juan Manuel Parrilla @kerbeross jparrill@redhat.com"
 description:
@@ -106,6 +106,11 @@ EXAMPLES = '''
     - debug: msg="{{ item }}"
       with_items: var_array_line
     - debug: msg="{{ line }}"
+'''
+
+RETURN = '''
+# Without Puppetmaster example, stand-alone node
+
 '''
 
 

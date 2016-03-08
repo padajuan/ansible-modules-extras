@@ -109,7 +109,7 @@ EXAMPLES = '''
 '''
 
 RETURN = '''
-# Without Puppetmaster example, stand-alone node
+This module will return the datatype that you got in Hieradata backend.
 
 '''
 

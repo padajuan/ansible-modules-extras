@@ -21,7 +21,7 @@ Hiera-Ansible Parser.
 DOCUMENTATION = '''
 ---
 module: hiera
-version_added: "2.1"
+version_added: "2.2"
 short_description: Use Hiera key/values into Ansible as fact.
 author: "Juan Manuel Parrilla @kerbeross jparrill@redhat.com"
 description:
